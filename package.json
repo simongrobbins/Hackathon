@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "node script.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.19.1",
+    "mongoose": "^8.2.2"
+  }
+}
