@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>All About Team Trees by MrBeast</title>
+<link rel="stylesheet" href="TT.css">
+</head>
+<body>
+
+<header>
+
+  <h1>All About Team Trees by MrBeast</h1>
+</header>
+
+<main>
+  <div class="team-trees-info">
+    <div class="container">
+      <h2>About Team Trees</h2>
+      <button onclick="redirectToPage()">Back</button>
+    </div>
+    <img src="/photos/TT-Logo.png" alt="Team Trees Image" class="right-image">
+    <p>Team Trees is a collaborative initiative started by MrBeast, a popular YouTuber, along with Mark Rober, and the Arbor Day Foundation. The project aims to plant 20 million trees by 2020 to combat climate change and deforestation.</p>
+    <img src="/photos/TT-MrB.jpeg" alt="Team Trees Image" class="left-image">
+
+    <p>The idea for Team Trees originated when MrBeast hit a milestone of reaching 20 million subscribers on YouTube. To celebrate, he decided to plant 20 million trees. He collaborated with Mark Rober, a former NASA engineer, and the Arbor Day Foundation to make this ambitious goal a reality.</p>
+    
+    <p>Each dollar donated to Team Trees results in one tree being planted. Donations are made directly to the Arbor Day Foundation, a nonprofit organization dedicated to planting trees and promoting environmental conservation.</p>
+    
+    <p>The project gained widespread attention on social media platforms, with thousands of people and organizations joining the cause. Celebrities, YouTubers, and companies also pledged their support, contributing to the success of the initiative.</p>
+    
+    <p>For more information and to donate to Team Trees, please visit their website:</p>
+    <a href="https://teamtrees.org/" class="website-link">Visit Team Trees Website</a>
+  </div>
+</main>
+
+<footer>
+  <p>&copy; 2024 The Volunteer Vault</p>
+</footer>
+<script>
+    function redirectToPage() {
+    // Replace 'destination_page.html' with the URL of the page you want to redirect to
+    window.location.href = 'main.html';
+  }
+  document.addEventListener('DOMContentLoaded', function () {
+  // Check if there is data in local storage
+  if (!localStorage.getItem("username")) {
+      // Redirect to a different HTML page
+      window.location.replace("/Signup.html")
+    }})
+</script>
+</body>
+</html>
