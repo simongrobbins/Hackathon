@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>All About Save the Amazon Volunteering</title>
+<link rel="stylesheet" href="STA.css">
+
+</head>
+<body>
+
+<header>
+  <h1>All About Save the Amazon Volunteering</h1>
+</header>
+
+<main>
+  <div class="amazon-info">
+    <div class="container">
+      <h2>About Save the Amazon Volunteering</h2>
+      <button onclick="redirectToPage()">Back</button>
+    </div>
+
+    <img src="/photos/Amazon.jpeg" alt="Save the Amazon Image" class="left-image">
+    <p>Save the Amazon is an international volunteering initiative dedicated to protecting and preserving the Amazon rainforest, which is vital for global climate regulation and biodiversity conservation.</p>
+    <img src="/photos/Amazon1.jpeg" alt="Save the Amazon Image" class="right-image">
+
+    <p>The Amazon rainforest is the largest tropical rainforest in the world and home to millions of plant and animal species. However, it is facing threats such as deforestation, illegal logging, and wildfires, which endanger its ecosystems and indigenous communities.</p>
+    
+    <p>Volunteering with Save the Amazon offers opportunities to participate in various conservation activities, including reforestation efforts, wildlife monitoring, sustainable development projects, and community outreach programs.</p>
+    
+    <p>By volunteering with Save the Amazon, individuals can make a direct impact on rainforest conservation while experiencing the unique biodiversity and culture of the Amazon region.</p>
+    
+    <p>For more information and to volunteer with Save the Amazon, please visit their website:</p>
+    <a href="https://savingtheamazon.org/en/" class="website-link">Visit Save the Amazon Website</a>
+    <p>For inquiries, please contact us at:</p>
+    <p>Email: <a href="mailto:savingcliente@savingtheamazon.org">savingcliente@savingtheamazon.org</a></p>
+  </div>
+</main>
+
+<footer>
+  <p>&copy; 2024 The Volunteer Vault</p>
+</footer>
+<script>
+  // Function to redirect to another page
+  function redirectToPage() {
+    // Replace 'destination_page.html' with the URL of the page you want to redirect to
+    window.location.href = 'main.html';
+  }
+  document.addEventListener('DOMContentLoaded', function () {
+  // Check if there is data in local storage
+  if (!localStorage.getItem("username")) {
+      // Redirect to a different HTML page
+      window.location.replace("/Signup.html")
+    }})
+</script>
+</body>
+</html>

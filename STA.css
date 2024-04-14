@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  main {
+    padding: 25px;
+  }
+  .amazon-info {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .amazon-info h2 {
+    text-align: center;
+  }
+  .amazon-info p {
+    text-align: justify;
+    line-height: 1.5;
+  }
+  .amazon-info img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .amazon-info .website-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .left-image {
+    float: left;
+    width: 25%;
+    margin-right: 20px; /* Adjust as needed for spacing */
+  }
+  
+  .right-image {
+    float: right;
+    width: 25%;
+    margin-left: 10px; /* Adjust as needed for spacing */
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+  }
+  .container {
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+    align-items: center; /* Align items vertically */
+  }
+
+  /* Button styles */
+  .button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 20px; /* Add margin to create space between the button and the h2 */
+  }
+
+  /* Button hover effect */
+  .button:hover {
+    background-color: #0056b3;
+  }

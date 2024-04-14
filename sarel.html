@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="sarel.css">
+<title>Volunteering Information</title>
+
+</head>
+<body>
+
+<header>
+  <h1>Sar-el</h1>
+</header>
+
+<main>
+  <div class="volunteering-info">
+    <div class="container">
+      <h2>About Sarel</h2>
+      <button onclick="redirectToPage()">Back</button>
+    </div>
+
+    <img src="/photos/Sarel-People.jpg" alt="Volunteering Image 2" class="right-image">
+
+    <p>Sar-El is an organization that has been the lifeblood of support for Israel for
+        countless years, bringing thousands of volunteers from across the world to assist the
+        IDF. It's our mission to provide essential aid in times of need, and today, that need is
+        greater than ever.</p>
+        <p>Since the 7th of October, Sar-El has been on the ground, working tirelessly with
+        thousands of volunteers who have been lending a helping hand in every conceivable
+        way. These dedicated individuals have been actively involved in the critical tasks of
+        checking, sorting, and packing vital medical supplies, preparing combat meals,
+        assembling ceramic vests, and even deploying a team of doctors who joined combat
+        units in the field.</p>
+        <img src="/photos/Sarel.png" alt="Volunteering Image 1" class="left-image">
+
+        <p>As the war persists, and the fighting intensifies, the needs of the IDF continue to
+        grow. We are grateful for the overwhelming response from those who have signed up
+        to help. However, this is just the beginning. New needs arise daily, and we appreciate
+        your patience as we work to match volunteers with urgent tasks. Rest assured, we are
+        doing our best to accommodate everyone, and your support means the world to us.
+        Thank you for being a part of this incredible community and for your invaluable
+        contributions. Together, we are making a meaningful difference.</p>
+        <P>Please, consider donating to Sar-El and join our community in this crucial mission.
+        Your support is a lifeline to our nation, ensuring that we remain strong, secure, and united</p>
+    
+
+
+    
+    <p>For more information, please visit our website: <a href="https://www.sar-el.org/" class="website-link">www.sar-el.org/</a></p>
+    
+    <p>For inquiries, please contact us at:</p>
+    <p>Email: <a href="mailto:info@sar-el.org">info@sar-el.org</a></p>
+  </div>
+</main>
+
+<footer>
+  <p>&copy; 2024 The Volunteer Vault</p>
+</footer>
+<script>
+  // Function to redirect to another page
+  function redirectToPage() {
+    // Replace 'destination_page.html' with the URL of the page you want to redirect to
+    window.location.href = 'main.html';
+  }
+  document.addEventListener('DOMContentLoaded', function () {
+  // Check if there is data in local storage
+  if (!localStorage.getItem("username")) {
+      // Redirect to a different HTML page
+      window.location.replace("/Signup.html")
+    }})
+</script>
+</body>
+</html>

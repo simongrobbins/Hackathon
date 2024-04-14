@@ -1,0 +1,126 @@
+/* Body styling */
+body {
+  margin: 0;
+  font-family: 'Indie Flower', cursive; /* Changed font to Indie Flower */
+  background: linear-gradient(to bottom right, var(--wanderlust-gray), var(--nomadic-green), var(--roaming-gold), var(--boundless-violet)); /* Gradient background using colors from the palette */
+ }
+ 
+ 
+ /* Header and footer styling */
+ header, footer {
+  background-color: var(--nomadic-green); /* Set header and footer background color using color palette */
+  color: #435a3c;
+  padding: 20px;
+  text-align: center;
+ }
+ 
+ 
+ /* Page title styling */
+ h1 {
+  margin-top: 0;
+  font-size: 2rem;
+  color: #435a3c; /* Set page title color using color palette */
+ }
+ 
+ 
+ /* Container styling */
+ .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px auto; /* Center the container */
+  background-color: #ffffff; /* Set container background color with opacity */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soften box shadow */
+ }
+ 
+ 
+ /* Image styling */
+ .images {
+  display: inline-block;
+  width: 100%; /* Ensure images take full width of their container */
+  max-width: 300px; /* Limit maximum width of images */
+  height: auto;
+  margin: 10px; /* Add some spacing between images */
+  cursor: pointer;
+  transition: transform 0.3s ease; /* Add smooth transition on hover */
+ }
+ 
+ 
+ .images:hover {
+  transform: scale(1.05); /* Increase size of image on hover */
+ }
+ 
+ 
+ /* Cards container styling */
+ .cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Add some spacing between cards */
+  padding: 20px;
+ }
+ 
+ 
+ /* Card styling */
+ .card {
+  flex: 0 1 calc(25% - 40px); /* Adjust card width */
+  border: 1px solid var(--wanderlust-gray); /* Set card border color using color palette */
+  border-radius: 8px;
+  background-color: #435a3c;; /* Set card background color */
+  color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soften box shadow */
+   transition: transform 0.3s ease; /* Add smooth transition on hover */
+ }
+ 
+ 
+ .card:hover {
+  transform: translateY(-5px); /* Lift card slightly on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Adjust card shadow on hover */
+ }
+ 
+ 
+ /* Card title styling */
+ .card h3 {
+  margin-top: 0;
+  background-color: #ffffff; /* Set card background color */
+  color: var(--boundless-violet); /* Set card title color using color palette */
+ }
+ 
+ 
+ /* Card link styling */
+ .card-link {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: var(--roaming-gold); /* Set card link color using color palette */
+ }
+ 
+ 
+ /* Card image styling */
+ .card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+ }
+ 
+ 
+ /* Error message styling */
+ .error {
+  color: #ff0000;
+  font-size: 14px;
+  margin-top: 5px;
+ }
+ 
+ 
+ /* Color Palette */
+ :root {
+  --wanderlust-gray: #A6A6A6; /* Wanderlust Gray */
+  --nomadic-green: #7FA06D; /* Nomadic Green */
+  --roaming-gold: #D2B55B; /* Roaming Gold */
+  --boundless-violet: #8E6C9C; /* Boundless Violet */
+ }
+ 
